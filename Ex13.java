@@ -6,7 +6,7 @@ import java.awt.Panel;
 import java.awt.GridLayout;
 import java.awt.*;
 
-public class Ex13 {
+public class Ex13 { //java UI grid - 전화기ui 
 
 	public static void main(String[] args) {
 		Frame f = new Frame();
@@ -30,7 +30,7 @@ public class Ex13 {
 		p1.add(ptop,BorderLayout.NORTH);
 		p1.add(pcenter,BorderLayout.CENTER);
 		//버튼생성
-		Button b1 = new Button("1");//버튼생성
+		Button b1 = new Button("1");//버튼생성 
 		Button b2 = new Button("2");
 		Button b3 = new Button("3");
 		Button b4 = new Button("4");
